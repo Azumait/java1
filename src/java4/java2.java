@@ -21,6 +21,7 @@ public class java2 {
 		java2_print.B();
 
 		java2_print.delimiter = "++++"; // 내 클래스 안의 변수값을 새로 지정 가능
+										// 여기서 바뀐 delimiter는 초기화되지 않고 계속 이어짐.
 		java2_print.A();
 		java2_print.B();
 	}
